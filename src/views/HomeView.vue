@@ -1,6 +1,7 @@
 <template>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
+    <OrgCard v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
 
@@ -15,11 +16,13 @@
 <script>
 // @ is an alias to /src
 import EventCard from "@/components/EventCard.vue";
+import OrgCard from "@/components/OrgCard.vue";
 
 export default {
   name: "HomeView",
   components: {
-    EventCard, // register it as a child component
+    EventCard,
+    OrgCard, // register it as a child component
   },
   data() {
     return {
