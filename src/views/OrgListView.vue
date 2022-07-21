@@ -17,7 +17,7 @@
 import OrgCard from "@/components/OrgCard.vue";
 
 export default {
-  name: "HomeView",
+  name: "OrgListView",
   components: {
     OrgCard, // register it as a child component
   },

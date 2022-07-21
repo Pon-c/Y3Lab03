@@ -19,7 +19,7 @@ import EventCard from "@/components/EventCard.vue";
 import OrgCard from "@/components/OrgCard.vue";
 
 export default {
-  name: "HomeView",
+  name: "EventListView",
   components: {
     EventCard,
     OrgCard, // register it as a child component
