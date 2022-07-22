@@ -1,7 +1,7 @@
 <template>
   <div class="event-card">
-    <h5>{{ event.category }}</h5>
-    <h5>{{ event.organizer }}</h5>
+    <h5>{{ event.name }} {{ event.surname }}</h5>
+    <h5>Grade {{ event.gpa }}</h5>
   </div>
 </template>
 
